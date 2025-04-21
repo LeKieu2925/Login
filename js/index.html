@@ -25,7 +25,7 @@
             <div class="box-login">
                 <button class="box-btn">
                     <img src="/assets/google.png" alt="Google">
-                   <span>Login with Google</span> 
+                    <span>Login with Google</span> 
                 </button>
                 <button class="box-btn">
                     <img src="/assets/facebook.png" alt="facebook">
@@ -37,12 +37,18 @@
                 <span>Or</span>
                 <div class="or-line"></div>
             </div>
-            <form action="./login.php">
-                <label for="">
-                    <input type="input" name="email">
+            <form class="login-form">
+                <label class="form-group">
+                    <div>
+                        <img src="/assets/email.png" alt="email" class="group-icon">
+                        <input type="input" name="email" class="group-input">       
+                    </div>            
                 </label>
-                <label for="">
-                    <input type="input" name="password">
+                <label class="form-group">
+                    <div>
+                        <img src="/assets/Password.png" alt="passwword" class="group-icon">
+                        <input type="input" name="password" class="group-input">    
+                    </div>               
                 </label>
                 <button>Login</button>
             </form>
